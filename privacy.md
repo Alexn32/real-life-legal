@@ -35,7 +35,7 @@ We **never** read:
 
 Before we store an event, we drop it entirely if its title or place is sensitive (for example medical, therapy, pharmacy, school, childcare, worship, or a title that names the thing itself, such as a recovery meeting). Location text for those kinds of places is also dropped and never stored. Person names are stripped from remaining titles before anything is sent to an AI provider.
 
-You can disconnect calendar in the app at any time. Disconnecting, or losing the system permission, deletes what we read from your calendar and anything we derived from it.
+You can disconnect calendar in the app at any time. Disconnecting, or losing the system permission, deletes what we read from your calendar and anything we derived from it. If you confirmed something on Me that came from your calendar, we keep that sentence until you delete it. We still delete the calendar events behind it, and we don't update that sentence from your calendar.
 
 ### Optional location while you use the app
 
@@ -49,7 +49,7 @@ Precise coordinates are kept for at most **14 days**, then reduced to counts (ar
 
 Friends and other people never see your location or where you have been. Only you do.
 
-Turning location off, or revoking the system permission, deletes your location data and anything built from it. Deleting something we noticed about places you go also deletes the underlying location data that supported it.
+Turning location off, or revoking the system permission, deletes your location data and anything built from it. If you confirmed something on Me that came from your location, we keep that sentence until you delete it. We still delete the location history behind it, and we don't update that sentence from your location. Deleting something we noticed about places you go also deletes the underlying location data that supported it.
 
 ### Features we may add later (not collected under this version)
 
