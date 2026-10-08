@@ -1,1 +1,1 @@
-[Privacy Policy](/privacy/)
+[Privacy Policy](privacy/)
